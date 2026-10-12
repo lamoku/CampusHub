@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Events - CampusHub</title>
+</head>
+<body>
+
+    <header>
+        <h1>CampusHub</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="instructors.html">Instructors</a></li>
+                <li><a href="events.html">Events</a></li>
+                <li><a href="announcements.html">Announcements</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Campus Events</h2>
+            <p>Stay up to date with upcoming guest lectures, workshops, career fairs, and seminars on campus.</p>
+        </section>
+
+        <section>
+            <h3>Filter Events</h3>
+            <form action="#" method="get">
+                <div>
+                    <label for="search-event">Search Event:</label>
+                    <input type="text" id="search-event" name="search" placeholder="Search events...">
+                </div>
+                <div>
+                    <label for="category-select">Category:</label>
+                    <select id="category-select" name="category">
+                        <option value="">All Categories</option>
+                        <option value="lectures">Lectures</option>
+                        <option value="workshops">Workshops</option>
+                        <option value="fairs">Career Fairs</option>
+                        <option value="seminars">Seminars</option>
+                    </select>
+                </div>
+            </form>
+            <p>
+                <strong>Quick Categories:</strong>
+                <a href="#lectures">Lectures</a> |
+                <a href="#workshops">Workshops</a> |
+                <a href="#fairs">Career Fairs</a> |
+                <a href="#seminars">Seminars</a>
+            </p>
+        </section>
+
+        <section>
+            <h3>Upcoming Events List</h3>
+
+            <article id="lectures">
+                <img src="images/event1.jpg" alt="Guest Lecture AI in Education">
+                <h4>Guest Lecture: AI in Education</h4>
+                <p><time datetime="2026-04-15">April 15, 2026</time> | 10:00 AM - 12:00 PM</p>
+                <p><strong>Venue:</strong> Main Auditorium, Hall A</p>
+                <p>An insightful session on how modern artificial intelligence tools are reshaping curriculum delivery and academic learning.</p>
+                <a href="event-detail.html">View Details</a>
+            </article>
+
+            <article id="workshops">
+                <img src="images/event2.jpg" alt="Workshop Web Development">
+                <h4>Workshop: Web Development</h4>
+                <p><time datetime="2026-04-22">April 22, 2026</time> | 01:00 PM - 04:00 PM</p>
+                <p><strong>Venue:</strong> Computer Lab 204</p>
+                <p>A hands-on technical workshop covering accessible and semantic HTML5 web design techniques.</p>
+                <a href="event-detail.html">View Details</a>
+            </article>
+
+            <article id="fairs">
+                <img src="images/event3.jpg" alt="Career Fair 2025">
+                <h4>Career Fair 2025</h4>
+                <p><time datetime="2026-04-30">April 30, 2026</time> | 09:00 AM - 05:00 PM</p>
+                <p><strong>Venue:</strong> University Sports Center</p>
+                <p>Connect with leading tech companies and industry experts offering internships and full-time career positions.</p>
+                <a href="event-detail.html">View Details</a>
+            </article>
+
+            <article id="seminars">
+                <img src="images/event4.jpg" alt="Seminar Digital Transformation">
+                <h4>Seminar: Digital Transformation</h4>
+                <p><time datetime="2026-05-12">May 12, 2026</time> | 11:00 AM - 01:00 PM</p>
+                <p><strong>Venue:</strong> Conference Room B</p>
+                <p>Discussing enterprise software modernization and digital strategies across global organizations.</p>
+                <a href="event-detail.html">View Details</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 CampusHub - University Portal. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
